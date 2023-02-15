@@ -5,7 +5,7 @@ body {
   /* Navigation Bar */
   
   #home {
-    background-color:  #0087bc;
+    background-color:  #357185;
     padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
@@ -64,7 +64,7 @@ body {
     font-size: 50px;
     text-align: center;
     float: left;
-    color: #7600bc;
+    color: #357185;
     margin: 30px;
     margin-left: 60px;
     margin-top: 40px;
@@ -96,15 +96,15 @@ body {
   }
   
   #about-me h1 {
-    font-size: 65px;
+    font-size: 55px;
     font-family: times;
     margin-top: 90px;
-    color: rgba(68, 96, 218, 0.877);
+    color: #357185;
   }
   
   #about-me p {
-    font-size: 25px;
-    color: rgb(128, 128, 128);
+    font-size: 21px;
+    color: rgb(0, 0, 0);
     margin-top: -1cm;
   }
   
@@ -228,7 +228,7 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 100%;
-    background-color: #7600bc;
+    background-color: #ff8c00;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -305,8 +305,8 @@ body {
   
   button {
     background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
+    border: 1px solid #ff8c00;
+    color: #ff8c00;
     display: block;
     border-radius: 6px;
     text-align: center;
@@ -317,8 +317,8 @@ body {
   }
   
   button:hover {
-    background-color: #7600bc;
-    border: 1px solid #7600bc;
+    background-color: #ff8c00;
+    border: 1px solid #ff8c00;
     color: #fff;
     display: block;
     border-radius: 6px;
