@@ -1,12 +1,7 @@
-/* Light mode */
-body {
-  background: #fff;
-  color: #000;
-}
 /* Dark mode */
-body.dark {
-  background: #000;
-  color: #fff;
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
 }
 
 body {

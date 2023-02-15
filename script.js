@@ -26,13 +26,15 @@ function addRecommendation() {
     }
   }
 
-  button.addEventListener('click', () => {
-    document.body.classList.toggle('dark')
-    localStorage.setItem(
-      'theme',
-      document.body.classList.contains('dark') ? 'dark' : 'light'
-    )
-  })
-  if (localStorage.getItem('theme') === 'dark') {
-    document.body.classList.add('dark')
+  let isDarkMode= window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if(isDarkMode){
+      console.log('Currently in dark mode');
+      ToggleDarkMode();
   }
+  else{
+      console.log('Currently not in dark mode');
+  }
+  function ToggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark");
+    }
